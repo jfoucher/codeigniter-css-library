@@ -44,12 +44,12 @@ class CI_Css {
     /**
      * @var Codeigniter global object
      */
-    var $CI;
-    var $dest_folder='';
-    var $dest_file='';
-    var $source_folder='';
-    var $source_file='';
-    var $cache_time='';
+    private $CI;
+    private $dest_folder='';
+    private $dest_file='';
+    private $source_folder='';
+    private $source_file='';
+    private $cache_time='';
 
     
     /**
